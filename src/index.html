@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+</head>
+<body>
+    <!--comentário para teste-->
+    <div class="container">
+        <h1>Calculadora</h1>
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" disabled>
+        <div class="botoes">
+            <button onclick="limpar()" title="Limpar">C</button>
+<button onclick="adicionarNumero('7')" title="Adicionar número 7">7</button>
+<button onclick="adicionarNumero('8')" title="Adicionar número 8">8</button>
+<button onclick="adicionarNumero('9')" title="Adicionar número 9">9</button>
+<button onclick="adicionarOperacao('/')" title="Adicionar operação divisão">/</button>
+<button onclick="adicionarNumero('4')" title="Adicionar número 4">4</button>
+<button onclick="adicionarNumero('5')" title="Adicionar número 5">5</button>
+<button onclick="adicionarNumero('6')" title="Adicionar número 6">6</button>
+<button onclick="adicionarOperacao('*')" title="Adicionar operação multiplicação">*</button>
+<button onclick="adicionarNumero('1')" title="Adicionar número 1">1</button>
+<button onclick="adicionarNumero('2')" title="Adicionar número 2">2</button>
+<button onclick="adicionarNumero('3')" title="Adicionar número 3">3</button>
+<button onclick="adicionarOperacao('-')" title="Adicionar operação subtração">-</button>
+<button onclick="adicionarNumero('0')" title="Adicionar número 0">0</button>
+<button onclick="calcular()" title="Calcular resultado">=</button>
+<button onclick="adicionarOperacao('+')" title="Adicionar operação soma">+</button>
+        </div>
+    </div>
+
+    <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>
